@@ -180,10 +180,12 @@ public class MemberBean {
 > **Java Bean이란 무엇인가?**
 
 &nbsp;Java Bean은 데이터를 표현하는 것을 목적으로 하는 Java Class로, 자바 언어로 작성된 소프트웨어 컴포넌트이다.  쉽게 이야기하면 JSP에서 데이터를 담기 위한 표준 규약이다. 예시로 회원정보 게시판 등의 정보를 출력할 때 필요한 정보들을 Java Bean 객체에 저장했다가 꺼내쓰게 된다.
+<br/>
 > **왜 Java Bean을 쓰는가?**
 
 &nbsp;JSP의 화면을 보여주는 View 페이지에 Java 코드와 HTML 코드를 함께 작성하면 가독성이 떨어지고 웹 페이지 디자이너의 입장에서 편집하기 까다로울 수 밖에 없다. 그래서 Java 클래스 객체 부분의 코드를 따로 분리하여 작성한다면 **가독성**과 **업무 분담** 측면에서 효율성을 높일 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDAyNzg0NDcsMTAyOTUwMDA0MCwxNz
-I1MDU0NzgxLDc3Njg1MzkyOCwtMTUxMDEwMDY4MV19
+eyJoaXN0b3J5IjpbMTczNTM0MDE3NCwtMTE0MDI3ODQ0NywxMD
+I5NTAwMDQwLDE3MjUwNTQ3ODEsNzc2ODUzOTI4LC0xNTEwMTAw
+NjgxXX0=
 -->
