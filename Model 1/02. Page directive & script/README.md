@@ -31,18 +31,19 @@
 |deferredSyntaxAllowedAsLiteral (2.1)|&nbsp;'#', '{' 문자가 문자열 값으로 사용되는 것을 허용할 지의 여부를 지정한다.|false|
 |trimDirectiveWhitespaces (2.1)|&nbsp;출력 결과에서 템플릿 텍스트의 공백 문자를 제거할 지의 여부를 지정한다.|false|
 
-![JSP_MVC1_02_01]()
+![JSP_MVC1_02_01](https://raw.githubusercontent.com/taechacode/JavaServletPageRepository/main/Model%201/images/02.%20Page%20directive%20%26%20script/JSP_MVC1_02_01.JPG)
 
 &nbsp;JSP 페이지를 생성하면 볼 수 있는 가장 상단에 **<%@ %>** 로 표기된 부분이 바로 페이지 디렉티브이다. 기본적으로 정의된 페이지 디렉티브를 해석해보자. 첫번째 **language="java"** 는 페이지 스크립트 내 요소를 Java 언어로 쓰겠다는 의미이고, 두번째 **contentType="text/html; charset=EUC-KR"** 는 해당 JSP 파일을 html로 바꿀 것이며 안에 사용하는 문자열은 EUC-KR이라는 의미이고, 세번째 **pageEncoding="EUC-KR"** 은 JSP 페이지가 앞의 문자열과 마찬가지로 EUC-KR 형태의 한국어로 사용되어진다는 의미이다.
+<br/><br/>
+>**페이지 디렉티브를 이용한 에러 페이지 이동 ([PageDirective.jsp](https://github.com/taechacode/JavaServletPageRepository/blob/main/Model%201/02.%20Page%20directive%20%26%20script/WebContent/PageDirective.jsp), [Error.jsp](https://github.com/taechacode/JavaServletPageRepository/blob/main/Model%201/02.%20Page%20directive%20%26%20script/WebContent/Error.jsp))**
 
->**페이지 디렉티브를 이용한 에러 페이지 이동**
-
-![JSP_MVC1_02_02]()
-![JSP_MVC1_02_03]()
-![JSP_MVC1_02_04]()
+![JSP_MVC1_02_02](https://raw.githubusercontent.com/taechacode/JavaServletPageRepository/main/Model%201/images/02.%20Page%20directive%20%26%20script/JSP_MVC1_02_02.JPG)
+![JSP_MVC1_02_03](https://raw.githubusercontent.com/taechacode/JavaServletPageRepository/main/Model%201/images/02.%20Page%20directive%20%26%20script/JSP_MVC1_02_03.JPG)
+![JSP_MVC1_02_04](https://raw.githubusercontent.com/taechacode/JavaServletPageRepository/main/Model%201/images/02.%20Page%20directive%20%26%20script/JSP_MVC1_02_04.JPG)
 <br/><br/>
 
 ## 페이지 스크립트
+<br/>
 
 > **스크립트 릿 <% %>**
 
@@ -78,7 +79,7 @@
 
 > **스크립트 릿과 표현식을 활용한 구구단 출력**
 
-![JSP_MVC1_02_05]()
+![JSP_MVC1_02_05](https://raw.githubusercontent.com/taechacode/JavaServletPageRepository/main/Model%201/images/02.%20Page%20directive%20%26%20script/JSP_MVC1_02_05.jpg)
 
 ```
 <body>
@@ -105,9 +106,9 @@ for(int i = 2; i < 10; i++) {
 
 > **out 기본 객체(내장 객체)를 활용한 구구단 출력**
 
-스크립트 릿을 사용하면 화면에 출력할 부분만 따로 <%= %> 처리해주는 것이 너무 힘들 수 있다. 그래서 톰캣과 같은 JSP/서블릿 컨테이너가 기본적으로 제공하는 출력용 객체가 있다. 바로 "out"이라는 것인데 기본 객체는 클래스의 인스턴스 형태로 스크립트 릿에서 참조 변수를 사용하는 것과 동일하게 사용할 수 있다.
+&nbsp;스크립트 릿을 사용하면 화면에 출력할 부분만 따로 <%= %> 처리해주는 것이 너무 힘들 수 있다. 그래서 톰캣과 같은 JSP/서블릿 컨테이너가 기본적으로 제공하는 출력용 객체가 있다. 바로 "out"이라는 것인데 기본 객체는 클래스의 인스턴스 형태로 스크립트 릿에서 참조 변수를 사용하는 것과 동일하게 사용할 수 있다.
 
-![JSP_MVC1_02_06]()
+![JSP_MVC1_02_06](https://raw.githubusercontent.com/taechacode/JavaServletPageRepository/main/Model%201/images/02.%20Page%20directive%20%26%20script/JSP_MVC1_02_06.jpg)
 ```
 <body>
 <h2>화면에 구구단을 출력하시오.</h2>
