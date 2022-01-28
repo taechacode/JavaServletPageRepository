@@ -13,15 +13,15 @@
 
 > **Toad for Oracle에서 테이블 생성**
 
-![DatabaseImg01](https://raw.githubusercontent.com/taechacode/JavaServletPageRepository/main/MVC1/images/Database/JSP_MVC1_Database_01.JPG)
+![DatabaseImg01](https://raw.githubusercontent.com/taechacode/JavaServletPageRepository/main/Model%201/images/05.%20Database/JSP_MVC1_Database_01.JPG)
 
 &nbsp;`[Database]-[Create]-[Table]` 메뉴를 통해 테이블 생성한다. 이후 Editor 화면에서 `SELECT * FROM MEMBER;` 쿼리문을 입력하고 `F9` 버튼이나 Editor 상단 메뉴의 `Execute/Compile Statement`라는 설명이 나오는 버튼을 누르면 생성된 테이블을 확인할 수 있다.
 <br/><br/>
-## 회원가입 페이지 만들기 ([MemberJoin.jsp](https://github.com/taechacode/JavaServletPageRepository/blob/main/MVC1/05.%20Database/WebContent/MemberJoin.jsp))
-![DatabaseImg02](https://raw.githubusercontent.com/taechacode/JavaServletPageRepository/main/MVC1/images/Database/JSP_MVC1_Database_02.JPG)
+## 회원가입 페이지 만들기 ([MemberJoin.jsp](https://github.com/taechacode/JavaServletPageRepository/blob/main/Model%201/05.%20Database/WebContent/MemberJoin.jsp))
+![DatabaseImg02](https://raw.githubusercontent.com/taechacode/JavaServletPageRepository/main/Model%201/images/05.%20Database/JSP_MVC1_Database_02.JPG)
 <br/><br/>
-## Java Bean 페이지 만들기 ([MemberBean.jsp](https://github.com/taechacode/JavaServletPageRepository/blob/main/MVC1/05.%20Database/src/model/MemberBean.java))
-![DatabaseImg03](https://raw.githubusercontent.com/taechacode/JavaServletPageRepository/main/MVC1/images/Database/JSP_MVC1_Database_03.JPG)
+## Java Bean 페이지 만들기 ([MemberBean.jsp](https://github.com/taechacode/JavaServletPageRepository/blob/main/Model%201/05.%20Database/src/model/MemberBean.java))
+![DatabaseImg03](https://raw.githubusercontent.com/taechacode/JavaServletPageRepository/main/Model%201/images/05.%20Database/JSP_MVC1_Database_03.JPG)
 <br/><br/>
 > **Java Bean이란 무엇인가?**
 
