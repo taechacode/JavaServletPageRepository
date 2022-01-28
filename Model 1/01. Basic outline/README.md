@@ -1,4 +1,4 @@
-# JSP MVC1 기본 개요
+# JSP Model 1 기본 개요
 [01. JSP/Servlet Model 1](#jspservlet-model-1)<br/>
 [02. Hello World 페이지 띄우기 (HelloWorld.jsp)](#hello-world-페이지-띄우기-helloworldjsp)<br/><br/>
 
