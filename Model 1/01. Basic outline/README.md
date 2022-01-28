@@ -18,7 +18,7 @@
 
 > **Model 1 동작**
 
-![Basic02](https://raw.githubusercontent.com/taechacode/JavaServletPageRepository/main/MVC1/images/Basic%20outline/JSP_MVC1_01_02.png)
+![Basic02](https://raw.githubusercontent.com/taechacode/JavaServletPageRepository/main/Model%201/images/01.%20Basic%20outline/JSP_MVC1_01_02.png)
 
 1. 브라우저(Browser)를 통해서 웹 페이지에 접속한다.
 2. HTTP 서버 통신을 통해서 해당 웹 페이지의 웹 서버에 접속한다. (Request)
@@ -28,7 +28,7 @@
 &nbsp;**고객이 요청한 정보를 전부 JSP가 처리**하면 **Model 1 방식**이다. 그리고 데이터베이스를 통해 가져온 데이터를 JSP가 전부 처리하는 방식도 Model 1 방식이다. 예를 들어, 사용자가 아이디와 패스워드를 입력하고 로그인 버튼을 누르면 해당 로그인 과정을 JSP가 모두 처리하는 것이 Model 1 방식이다.
 <br/><br/>
 ## Hello World 페이지 띄우기 (HelloWorld.jsp)
-![Basic01](https://raw.githubusercontent.com/taechacode/JavaServletPageRepository/main/MVC1/images/Basic%20outline/JSP_MVC1_01_01.JPG)
+![Basic01](https://raw.githubusercontent.com/taechacode/JavaServletPageRepository/main/Model%201/images/01.%20Basic%20outline/JSP_MVC1_01_01.JPG)
 ```
 
 <%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
