@@ -30,6 +30,7 @@
 |isELIgnored (2.0)|&nbsp;"true"일 경우 표현 언어를 지원하며, "false"일 경우 표현 언어를 지원하지 않는다. 기본값은 web.xml 파일이 사용하는 JSP 버전 및 설정에 따라 다르다.||
 |deferredSyntaxAllowedAsLiteral (2.1)|&nbsp;'#', '{' 문자가 문자열 값으로 사용되는 것을 허용할 지의 여부를 지정한다.|false|
 |trimDirectiveWhitespaces (2.1)|&nbsp;출력 결과에서 템플릿 텍스트의 공백 문자를 제거할 지의 여부를 지정한다.|false|
+<br/>
 
 ![JSP_MVC1_02_01](https://raw.githubusercontent.com/taechacode/JavaServletPageRepository/main/Model%201/images/02.%20Page%20directive%20%26%20script/JSP_MVC1_02_01.JPG)
 
