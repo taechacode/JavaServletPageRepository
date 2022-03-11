@@ -15,9 +15,7 @@
 	// response.sendRedirect("ResponseRedirect.jsp"); // 흐름제어
 	// response.sendRedirect("ResponseRedirect.jsp?id="+id); // Parameter로 id 넘기기
 	%>
-	 
-	
-	
+
 	<!-- 흐름제어 -->
 	<!-- 넘어받은 id 값을 "mmmm"으로 변경 -->
 	<!-- 넘겨받지 않은 phone 값도 넘기기 가능 -->
