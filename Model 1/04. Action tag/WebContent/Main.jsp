@@ -14,9 +14,9 @@
 			<!-- Top -->
 			<tr height="150">
 				<td align="center" colspan="2">
+				
+					<!-- 로그인 정보를 Top.jsp에서 처리한 후 Main.jsp로 병합한다. -->
 					<jsp:include page="Top.jsp">
-					
-						<!-- 로그인 정보를 Top.jsp에서 처리한 후 Main.jsp로 병합한다. -->
 						<jsp:param value="aaa" name="id"/>
 					</jsp:include>
 				</td>
