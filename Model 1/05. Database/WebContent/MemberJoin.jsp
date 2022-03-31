@@ -9,6 +9,7 @@
 <body>
 
 	<center>
+	
 	<h2>회원 가입</h2>
 	<form action="MemberJoinProc.jsp" method="post">
 		<table width="500" border="1">
@@ -85,6 +86,7 @@
 			</tr>
 		</table>
 	</form>
+	
 	</center>
 	
 </body>
